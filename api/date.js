@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   const today = new Date();
   const formattedDate = today.toLocaleDateString('en-CA', { 
-    timeZone: 'Asia/Anadyr', 
+    timeZone: 'UTC', 
     year: 'numeric', 
     month: '2-digit', 
     day: '2-digit' 
