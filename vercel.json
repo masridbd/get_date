@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/get_date/date.txt",
+      "source": "/date.txt",
       "destination": "/api/date"
     }
   ]
